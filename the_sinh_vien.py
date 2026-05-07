@@ -22,6 +22,10 @@ nhan_ten.pack(pady=5)
 nhan_msv = tk.Label(root, text="MSSV: 24DH080019", font=("Arial", 12), fg="red")
 nhan_msv.pack(pady=5)
 
+# Nhãn hiện thị khoa CNTT với màu xanh lá cây
+nhan_khoa = tk.Label(root, text="Khoa: Công nghệ thông tin", font=("Arial", 12), fg="green")
+nhan_khoa.pack(pady=5)
+
 # 4. Tạo nút bấm để thoát chương trình
 nut_thoat = tk.Button(
     root, 
