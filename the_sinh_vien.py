@@ -32,5 +32,8 @@ nut_thoat = tk.Button(
 )
 nut_thoat.pack(pady=20)
 
+# 5. Đổi màu nền của toàn bộ cửa sổ sang màu xám nhạt 
+root.configure(bg="#cdd3da")
+
 root.mainloop()
 
