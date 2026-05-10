@@ -22,7 +22,7 @@ o_nhap_ma_sv.grid(row=0, column=1, padx=10, pady=10, sticky="ew")
 
 # Hàng 1
 nhan_ho_ten.grid(row=1, column=0, padx=10, pady=10, sticky="w")
-o_nhap_ho_ten.grid(row=1, column=1, padx=10, pady=10)
+o_nhap_ho_ten.grid(row=1, column=1, padx=10, pady=10, sticky="ew")
 
 root.mainloop()
 
